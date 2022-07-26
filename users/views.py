@@ -1,3 +1,12 @@
-from django.shortcuts import render
+from operator import imod
+from rest_framework import viewsets
+from users.models import User
+from users.serializer import UserSerializer
 
-# Create your views here.
+class UsersViewSet(viewsets.ModelViewSet):
+    """ 
+    Exibir todos os usuários 
+    """
+
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
