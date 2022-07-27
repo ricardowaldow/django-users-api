@@ -1,0 +1,10 @@
+asgiref==3.5.2
+cffi==1.15.1
+cryptography==37.0.4
+Django==4.0.6
+django-encrypted-model-fields==0.6.5
+djangorestframework==3.13.1
+Markdown==3.4.1
+pycparser==2.21
+pytz==2022.1
+sqlparse==0.4.2
